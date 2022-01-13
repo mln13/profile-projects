@@ -12,8 +12,8 @@ class PlanetCard extends React.Component {
   }
 }
 PlanetCard.propTypes = {
-  planetName: PropTypes.string,
-  planetImage: PropTypes.src,
+  planetName: PropTypes.string.isRequired,
+  planetImage: PropTypes.src.isRequired,
 };
 
 export default PlanetCard;
